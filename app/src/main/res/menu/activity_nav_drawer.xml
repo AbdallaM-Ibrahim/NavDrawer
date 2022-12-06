@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_todo"
+            android:icon="@drawable/todo_list"
+            android:title="@string/menu_todo"
+            android:checked="true"/>
+        <item
+            android:id="@+id/nav_timetable"
+            android:icon="@drawable/timetable"
+            android:title="@string/menu_timetable" />
+        <item
+            android:id="@+id/nav_calculator"
+            android:icon="@drawable/calculator"
+            android:title="@string/menu_calculator" />
+    </group>
+</menu>
